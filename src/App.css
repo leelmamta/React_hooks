@@ -1,0 +1,21 @@
+*{
+  background-color: rgb(48, 45, 45);
+ 
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 300px;
+}
+.btn{
+  /* color: aqua; */
+
+  align-items: center;
+ height: 50px;
+ width: 100px;
+ background-color:aqua;
+ border: 2px solid white;
+ box-shadow: black;
+ margin-left: 720px;
+
+}
