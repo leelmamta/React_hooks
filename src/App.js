@@ -4,7 +4,16 @@ const App = () => {
   // var val = 'Mamta Leel'
   const [myName , setmyName] = useState('Mamta Leel')
   const changeName = () =>{
-    setmyName('Sandeep Singh')
+    let val = myName; 
+
+    if(val === 'Mamta Leel')
+    {
+      setmyName('Sandeep singh ')
+     }
+    else
+    {
+    setmyName('Mamta Leel')
+     }
   }
   console.log(myName); 
   return (
